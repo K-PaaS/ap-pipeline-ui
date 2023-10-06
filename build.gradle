@@ -21,12 +21,11 @@ ext {
 	jstlVersion = '1.2'
 	sitemeshVersion = '3.0.1'
 	springSecurityTagLibsVersion = '4.2.3.RELEASE'
-	appVersion = "1.0.4"
 }
 
 
 war {
-	baseName = "delivery-pipeline-ui-${appVersion}"
+	baseName = "ap-pipeline-ui"
 }
 
 sourceCompatibility = 1.8
